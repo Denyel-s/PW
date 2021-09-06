@@ -6,6 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
+        table {
+            font-family: arial, sans-serif;
+            border: 1px solid black;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 4px;
+        }
+
+        tr{
+            background-color:lightsteelblue;
+        }
+        th{
+            background-color: rgb(149, 188, 201);
+            color:black;
+        }
         body{
             background-color: lightblue;
             
@@ -14,7 +33,7 @@
   background-color: #0003cf;
   color: white;
   padding: 15px 25px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
 }
@@ -27,15 +46,20 @@ a:hover, a:active {
 </head>
 <body>
 <h1>Atividades de PW</h1>
-<p>
-    <a href="C:\Users\User\Documents\Programinhas\vscode\Web\PW\Atividades\Atividade 1- Site estatico\COTE.html"
-     title="Site Estático"> Atividade 1
-    </a>
-</p>
-<p>
-    <a href="C:\Users\User\Documents\Programinhas\vscode\Web\PW\Atividades\Atividade 2- Site dinamico\meuForm.html"
-     title="Site Dinamico">Atividade 2
-    </a>
-</p>
+<table>
+    <tr>
+        <th>Link</th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><a href="C:\Users\User\Documents\Programinhas\vscode\Web\PW\Atividades\Atividade 1- Site estatico\COTE.html"
+            title="Site Estático"> Atividade 1</a></td>
+        <td>Site Estático</td>
+    </tr>
+    <tr>
+        <td><a href="C:\Users\User\Documents\Programinhas\vscode\Web\PW\Atividades\Atividade 2- Site dinamico\meuForm.html"title="Site Dinamico">Atividade 2</a></td>
+        <td>Site Dinâmico</td>
+    </tr>
+</table>
 </body>
 </html>
